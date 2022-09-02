@@ -10,6 +10,34 @@ import UIKit
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
+    var PostsSaved:[Post] = []
+    let file = "Data.json"
+
+    func inFile(data: [Post]){
+        if let encData = try? JSONEncoder().encode(data){
+            if let dir = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first {
+                let fileURL = dir.appendingPathComponent(file)
+                do {
+                    try encData.write(to: fileURL)
+                }
+                catch {}
+            }
+        }
+        
+    }
+
+    func outFile() -> [Post] {
+        if let dir = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first {
+            let fileURL = dir.appendingPathComponent(file)
+        do {
+            let fileData = try Data(contentsOf: fileURL)
+            guard let posts = try? JSONDecoder().decode([Post].self, from: fileData) else { return [] }
+            return posts
+        }
+        catch {}
+        }
+        return []
+    }
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {

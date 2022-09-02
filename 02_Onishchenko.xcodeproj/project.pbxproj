@@ -7,23 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8449FF5E00634B4768DDF7DE /* Pods_02_Onishchenko.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F72B26D0295B8199B0B9652 /* Pods_02_Onishchenko.framework */; };
+		CF2B2750282563ED0095E5DF /* PostListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2B274F282563ED0095E5DF /* PostListViewController.swift */; };
+		CF2B2752282568410095E5DF /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2B2751282568410095E5DF /* PostTableViewCell.swift */; };
+		CFA355572834EA5400AE3DF4 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA355522834EA5400AE3DF4 /* CommentCell.swift */; };
+		CFA355582834EA5400AE3DF4 /* CommentDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA355532834EA5400AE3DF4 /* CommentDetail.swift */; };
+		CFA355592834EA5400AE3DF4 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA355542834EA5400AE3DF4 /* Comment.swift */; };
+		CFA3555A2834EA5400AE3DF4 /* CommentList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA355552834EA5400AE3DF4 /* CommentList.swift */; };
+		CFB58747282FC691002DAC20 /* PostTableViewCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB58746282FC691002DAC20 /* PostTableViewCellDelegate.swift */; };
+		CFB58749282FCAEA002DAC20 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB58748282FCAEA002DAC20 /* Post.swift */; };
 		CFD8616627BC0CC80033AABD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD8616527BC0CC80033AABD /* AppDelegate.swift */; };
 		CFD8616827BC0CC80033AABD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD8616727BC0CC80033AABD /* SceneDelegate.swift */; };
-		CFD8616A27BC0CC80033AABD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD8616927BC0CC80033AABD /* ViewController.swift */; };
 		CFD8616D27BC0CC80033AABD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFD8616B27BC0CC80033AABD /* Main.storyboard */; };
 		CFD8616F27BC0CC90033AABD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFD8616E27BC0CC90033AABD /* Assets.xcassets */; };
 		CFD8617227BC0CC90033AABD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFD8617027BC0CC90033AABD /* LaunchScreen.storyboard */; };
+		CFFE732D27BC375C0048CEB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFE732C27BC375C0048CEB8 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05D11762BF5B4063B6D0A1F6 /* Pods-02_Onishchenko.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-02_Onishchenko.release.xcconfig"; path = "Target Support Files/Pods-02_Onishchenko/Pods-02_Onishchenko.release.xcconfig"; sourceTree = "<group>"; };
+		2F72B26D0295B8199B0B9652 /* Pods_02_Onishchenko.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_02_Onishchenko.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A5872156BE46C58668708B4 /* Pods-02_Onishchenko.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-02_Onishchenko.debug.xcconfig"; path = "Target Support Files/Pods-02_Onishchenko/Pods-02_Onishchenko.debug.xcconfig"; sourceTree = "<group>"; };
+		CF2B274F282563ED0095E5DF /* PostListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListViewController.swift; sourceTree = "<group>"; };
+		CF2B2751282568410095E5DF /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		CFA355522834EA5400AE3DF4 /* CommentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CommentCell.swift; path = ../../onishchenko_06/onishchenko_06/CommentCell.swift; sourceTree = "<group>"; };
+		CFA355532834EA5400AE3DF4 /* CommentDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CommentDetail.swift; path = ../../onishchenko_06/onishchenko_06/CommentDetail.swift; sourceTree = "<group>"; };
+		CFA355542834EA5400AE3DF4 /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Comment.swift; path = ../../onishchenko_06/onishchenko_06/Comment.swift; sourceTree = "<group>"; };
+		CFA355552834EA5400AE3DF4 /* CommentList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CommentList.swift; path = ../../onishchenko_06/onishchenko_06/CommentList.swift; sourceTree = "<group>"; };
+		CFB58746282FC691002DAC20 /* PostTableViewCellDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCellDelegate.swift; sourceTree = "<group>"; };
+		CFB58748282FCAEA002DAC20 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		CFD8616227BC0CC80033AABD /* 02_Onishchenko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 02_Onishchenko.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFD8616527BC0CC80033AABD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFD8616727BC0CC80033AABD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CFD8616927BC0CC80033AABD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CFD8616C27BC0CC80033AABD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CFD8616E27BC0CC90033AABD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFD8617127BC0CC90033AABD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CFD8617327BC0CC90033AABD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFFE732C27BC375C0048CEB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8449FF5E00634B4768DDF7DE /* Pods_02_Onishchenko.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F799D6989CFE91EE31D550C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F72B26D0295B8199B0B9652 /* Pods_02_Onishchenko.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CFD8615927BC0CC80033AABD = {
 			isa = PBXGroup;
 			children = (
 				CFD8616427BC0CC80033AABD /* 02_Onishchenko */,
 				CFD8616327BC0CC80033AABD /* Products */,
+				EC3F0208184B438B8BC7CB30 /* Pods */,
+				1F799D6989CFE91EE31D550C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +89,30 @@
 			children = (
 				CFD8616527BC0CC80033AABD /* AppDelegate.swift */,
 				CFD8616727BC0CC80033AABD /* SceneDelegate.swift */,
-				CFD8616927BC0CC80033AABD /* ViewController.swift */,
 				CFD8616B27BC0CC80033AABD /* Main.storyboard */,
 				CFD8616E27BC0CC90033AABD /* Assets.xcassets */,
 				CFD8617027BC0CC90033AABD /* LaunchScreen.storyboard */,
 				CFD8617327BC0CC90033AABD /* Info.plist */,
+				CFFE732C27BC375C0048CEB8 /* ViewController.swift */,
+				CF2B274F282563ED0095E5DF /* PostListViewController.swift */,
+				CFB58746282FC691002DAC20 /* PostTableViewCellDelegate.swift */,
+				CF2B2751282568410095E5DF /* PostTableViewCell.swift */,
+				CFB58748282FCAEA002DAC20 /* Post.swift */,
+				CFA355542834EA5400AE3DF4 /* Comment.swift */,
+				CFA355522834EA5400AE3DF4 /* CommentCell.swift */,
+				CFA355532834EA5400AE3DF4 /* CommentDetail.swift */,
+				CFA355552834EA5400AE3DF4 /* CommentList.swift */,
 			);
 			path = 02_Onishchenko;
+			sourceTree = "<group>";
+		};
+		EC3F0208184B438B8BC7CB30 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A5872156BE46C58668708B4 /* Pods-02_Onishchenko.debug.xcconfig */,
+				05D11762BF5B4063B6D0A1F6 /* Pods-02_Onishchenko.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +122,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CFD8617627BC0CC90033AABD /* Build configuration list for PBXNativeTarget "02_Onishchenko" */;
 			buildPhases = (
+				56B26AB321B1144C7C1826BB /* [CP] Check Pods Manifest.lock */,
 				CFD8615E27BC0CC80033AABD /* Sources */,
 				CFD8615F27BC0CC80033AABD /* Frameworks */,
 				CFD8616027BC0CC80033AABD /* Resources */,
+				179EF0C8D5EB7A3108EAE760 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +183,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		179EF0C8D5EB7A3108EAE760 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-02_Onishchenko/Pods-02_Onishchenko-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-02_Onishchenko/Pods-02_Onishchenko-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-02_Onishchenko/Pods-02_Onishchenko-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56B26AB321B1144C7C1826BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-02_Onishchenko-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CFD8615E27BC0CC80033AABD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFD8616A27BC0CC80033AABD /* ViewController.swift in Sources */,
+				CF2B2750282563ED0095E5DF /* PostListViewController.swift in Sources */,
+				CFFE732D27BC375C0048CEB8 /* ViewController.swift in Sources */,
+				CF2B2752282568410095E5DF /* PostTableViewCell.swift in Sources */,
+				CFA355582834EA5400AE3DF4 /* CommentDetail.swift in Sources */,
 				CFD8616627BC0CC80033AABD /* AppDelegate.swift in Sources */,
+				CFA355572834EA5400AE3DF4 /* CommentCell.swift in Sources */,
 				CFD8616827BC0CC80033AABD /* SceneDelegate.swift in Sources */,
+				CFB58749282FCAEA002DAC20 /* Post.swift in Sources */,
+				CFA355592834EA5400AE3DF4 /* Comment.swift in Sources */,
+				CFB58747282FC691002DAC20 /* PostTableViewCellDelegate.swift in Sources */,
+				CFA3555A2834EA5400AE3DF4 /* CommentList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +384,7 @@
 		};
 		CFD8617727BC0CC90033AABD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A5872156BE46C58668708B4 /* Pods-02_Onishchenko.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,6 +396,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -306,12 +408,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		CFD8617827BC0CC90033AABD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05D11762BF5B4063B6D0A1F6 /* Pods-02_Onishchenko.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -323,6 +426,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -334,7 +438,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
